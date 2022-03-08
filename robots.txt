@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://blog.coinduf.eu/sitemap.xml

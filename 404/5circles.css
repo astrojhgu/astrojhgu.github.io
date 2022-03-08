@@ -1,0 +1,21 @@
+.edge {
+    stroke-width: 0.1;
+}
+
+.small_circles{
+    stroke-width: 0.1;
+}
+
+#large_circle{
+    stroke-width:0.1;
+}
+
+.active_handle{
+    fill-opacity: 0.4;
+    fill:red;
+}
+
+.inactive_handle{
+    fill-opacity: 0.0;
+    fill: red;
+}

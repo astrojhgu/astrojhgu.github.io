@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>五点共圆</title>
+  <meta name="description" content="How to render katex">
+  <link rel="stylesheet" type="text/css" href="http://blog.coinduf.eu/base.css">
+  
+
+
+<link rel="stylesheet" href="http://blog.coinduf.eu/katex.css">
+<script defer src="http://blog.coinduf.eu/katex.js"></script>
+<script defer src="http://blog.coinduf.eu/auto-render.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false},
+            ]
+        });
+    });
+</script>
+
+
+
+</head>
+<body>
+  <div id="container">
+    <header><a href="http:&#x2F;&#x2F;blog.coinduf.eu&#x2F;"><h1><img id="title_pic" alt="" src="&#x2F;favicon.ico"/>My Personal Site</h1></a></header>
+    <nav>
+
+<a href="http:&#x2F;&#x2F;blog.coinduf.eu&#x2F;math&#x2F;"
+    class="active">
+    Math
+</a><a href="http:&#x2F;&#x2F;blog.coinduf.eu&#x2F;computer&#x2F;"
+    >
+    Computer
+</a>
+</nav>
+    <main>
+<section class="card page">
+<h1>五点共圆</h1>
+<p><object type="image/svg+xml" data="5circles.svg"></object></p>
+
+
+
+
+</section>
+</main>
+    <footer>
+<div class="card">
+Made with <a href="http://getzola.org/">Zola</a>, static site generator in <a href="https://www.rust-lang.org/">Rust</a>.
+</div>
+
+<br>
+</footer>
+  </div>
+</body>
+</html>
